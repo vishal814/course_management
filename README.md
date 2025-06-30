@@ -1,5 +1,5 @@
 # Course Management System
-A full-stack web application to manage courses, students, and enrollments, built with *Spring Boot* (Java) for the backend and *React.js* for the frontend. This system also supports *JWT authentication, **course statistics, and a clean UI with **Tailwind CSS*.
+A full-stack web application to manage courses, students, and enrollments, built with *Spring Boot* (Java) for the backend and *React.js* for the frontend. This system also supports **course statistics, and a clean UI with **Tailwind CSS*.
 
 ---
 
