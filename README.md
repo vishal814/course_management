@@ -65,23 +65,21 @@ course-management-frontend/
 
 
 API ENDPOINTS
-for managing courses
-GET /courses
 
-Fetches a list of all available courses including their names and fees.
+Course Endpoints
 
-POST /courses
-Allows the creation of a new course by accepting course name and fee in the request body.
-for student 
-GET /students
-Returns a list of all registered students along with their basic details like name and date of birth.
+POST /courses - Create a new course (requires course name and fee)
 
-POST /students
-Adds a new student to the system by accepting their name and date of birth in the request body
-for Enrollment 
-Get /enrollments
-returns a list of all student enrollment 
-Get /enrollment/stats/students
-Return the number of students enrolled in each course as a list of objects containing course name and student count 
-Get enrollments/stats/fees
-Return the total fee collected per course as a list of course names and corresponding fee totals 
+Student Endpoints
+
+GET /students - Get all students with basic details (name, date of birth)
+
+POST /students - Add a new student (requires name and date of birth)
+
+Enrollment Endpoints
+
+GET /enrollments - Get all student enrollments
+
+GET /enrollment/stats/students - Get student count per course (returns course name + enrollment count)
+
+GET /enrollments/stats/fees - Get total fees collected per course (returns course name + fee total)
