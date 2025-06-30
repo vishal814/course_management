@@ -67,6 +67,7 @@ course-management-frontend/
 API ENDPOINTS
 for managing courses
 GET /courses
+
 Fetches a list of all available courses including their names and fees.
 
 POST /courses
